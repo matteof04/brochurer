@@ -1,0 +1,12 @@
+[package]
+name = "brochurer"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-3-Clause-Clear"
+description = "Calcultor for the page numbers to use for brochure printing"
+readme = "README.md"
+repository = "https://github.com/matteof04/brochurer"
+
+[dependencies]
+clap = { version = "4.4.10", features = ["derive"] }
+clap_complete = "4.4.6"
